@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="import" href="index.html">
+    <title>Document</title>
+   
+    <style>
+        img{
+            border: 1px solid green;
+            width:100px;
+            height: 100px;
+            border-radius: 100px;
+        }
+      
+     div{
+         font-size: 50px;
+         color: green;
+     }
+     body{
+        background-image: url("download (1).jfif");
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     #quiz1{
+         border: 3px solid #008000;
+         margin-right: 500px;
+         margin-left: 500px;
+         background-image: url("download (1).jfif");
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .Q1{
+        margin-left: 150PX;
+     }
+     hr{
+         color: green;
+     }
+     button{
+      border: 1px solid green;
+       border-radius: 5px;
+       margin-left: 130px;
+       width: 100px;
+       height: 40px;
+     }
+      .c2{
+          border:1px solid green;
+          margin-left: 70px;
+          text-align: center;
+      }
+      .ques{
+          width: 20px;
+          height: 20px;
+          margin-left: 10px;
+      }
+     #quiz2{
+        border: 3px solid #008000;
+        margin-right: 500px;
+         margin-left: 500px;
+         background-image: url("download (1).jfif");
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .Q2{
+        margin-left: 90PX;
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="c.jfif" alt=""> MINECRAFT QUIZ
+      
+    </div>
+    <br><br>
+    <div class="f"></div>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 1</h3>
+        <hr>
+        <a href="q1.html">
+            <button>
+              start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 2</h3>
+        <hr>
+        <input type="text" id="code1"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+        <img src="qe.jfif" alt="" class="ques">
+    </a>
+        <a href="">
+            <button onclick="c1()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 3</h3>
+        <hr>
+        <input type="text" id="code2"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c2()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 4</h3>
+        <hr>
+        <input type="text" id="code3"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c3()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 5</h3>
+        <hr>
+        <input type="text" id="code5"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c5()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 6</h3>
+        <hr>
+        <input type="text" id="code6"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c6()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <br><br>
+    <div id="quiz1">
+        <h3 style="font-size: 20px;"class="Q1">QUIZ 7</h3>
+        <hr>
+        <input type="text" id="code7"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to start this quiz')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c7()">
+             start
+        </button>
+    </a>
+    <br><br>
+    </div>
+ <br><br>
+    <div id="quiz2">
+        <h3 style="font-size: 20px;"class="Q2">CLAIM REWARD</h3>
+        <hr>
+        <input type="text" id="code8"class="c2"placeholder="enter the code">
+        <a href="" onclick="alert('enter the code from previous quiz to claim reward')">
+            <img src="qe.jfif" alt="" class="ques">
+        </a>
+        <a href="">
+            <button onclick="c8()">
+             CLAIM
+        </button>
+    </a>
+    <br><br>
+    </div>
+    <script>
+        b1=document.getElementById("code1")
+        b2=document.getElementById("code2")
+        b3=document.getElementById("code3")
+        b5=document.getElementById("code5")
+        b6=document.getElementById("code6")
+        b7=document.getElementById("code7")
+        b8=document.getElementById("code8")
+        function c1(){
+        if(b1.value==="nxnx"){
+            window.open("q2.html")
+            
+        }
+        if(b1.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+
+    function c2(){
+        if(b2.value==="nxne"){
+            window.open("q3.html")
+            
+        }
+        if(b2.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+
+    function c3(){
+        if(b3.value==="nxnf"){
+            window.open("q4.html")
+            
+        }
+        if(b3.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+    function c5(){
+        if(b5.value==="nxng"){
+            window.open("q5.html")
+            
+        }
+        if(b5.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+    function c6(){
+        if(b6.value==="nxnd"){
+            window.open("q6.html")
+            
+        }
+        if(b6.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+    function c7(){
+        if(b7.value==="nxnt"){
+            window.open("q7.html")
+            
+        }
+        if(b7.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+    function c8(){
+        if(b8.value==="nxns"){
+            window.open("https://drive.google.com/file/d/1QHu_ZnUgUP8dulLt7i5wUIIAaE_a_SBN/view?usp=sharing")
+            
+        }
+        if(b8.value===""){
+            alert("PLESE ENTER THE CODE")
+        }
+        else{
+            alert("wrong code")
+        }
+    }
+    </script>
+</body>
+</html>
